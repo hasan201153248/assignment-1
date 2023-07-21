@@ -1,3 +1,53 @@
-.assignment{
-    background: pink;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+
+.section-1{
+    background-color: #e8d3e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.header{
+    font-weight: bold;
+    font-size: 70px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-left: 99px;
+    margin-right: 350px;
+    margin-top: 99px;
+    margin-bottom: 0;
+    
+
+}
+.paragraph{
+    color: gray;
+    margin-left: 99px;
+   
+}
+.btn{
+   background-color:palevioletred;
+   color: white;
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   margin-left: 99px;
+   margin-bottom: 50px;
+}
+.image-1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
 }
