@@ -21,28 +21,35 @@ body{
 .header{
     font-weight: bold;
     font-size: 70px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 0;
     margin-left: 99px;
     margin-right: 350px;
     margin-top: 99px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     
 
 }
 .paragraph{
     color: gray;
     margin-left: 99px;
+    margin-right: 350px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
    
 }
 .btn{
    background-color:palevioletred;
    color: white;
-   margin: 10px;
-   padding: 5px;
+   margin: 10px 30px;
+   padding: 8px;
    border-radius: 5px;
-   margin-left: 99px;
    margin-bottom: 50px;
+   position: absolute;
+   left: 90px;
+   border: none;
+   
 }
 .image-1{
     flex: 1;
